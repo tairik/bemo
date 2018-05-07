@@ -1,0 +1,54 @@
+title: Contact page
+pages: false
+files: false
+fields:
+   contactFields:
+     label: Contact Page Fields
+     type: headline
+  street:
+    label: Street
+    type: text
+  postal:
+    label: Postal Code
+    type: text
+    width: 1/6
+  location:
+    label: Location
+    type: text
+    width: 3/4
+  phone:
+    label: Phone
+    type: tel
+    width: 1/2
+  email:
+    label: Email
+    type: email
+    width: 1/2
+  website:
+    label: Website
+    type: url
+    width: 1/2
+  twitter:
+    label: Twitter
+    type: text
+    placeholder: @
+    icon: twitter
+    width: 1/2
+  siteMeta:
+    label: Page Meta Tags Settings
+    type: headline
+  title:
+    label: Site title
+    type:  text
+  title:
+    label: Title Meta
+    type:  text
+    icon:  info-circle
+  description:
+    label: Description Meta
+    type:  text
+    icon:  info-circle
+  noIndex:
+        label: No Index
+        type: checkbox
+        text: Do you want turn on "No Index" on this page?

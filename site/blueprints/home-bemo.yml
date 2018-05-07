@@ -1,0 +1,33 @@
+title: Home BeMo
+pages: false
+files:
+  max: 1
+  size: 12000000
+fields:
+  homeFields:
+    label: Home Page Fields
+    type: headline
+  title:
+    label: Title
+    type: title
+  text:
+    label: Text
+    type: markdown
+  siteMeta:
+    label: Page Meta Tags Settings
+    type: headline
+  title:
+    label: Site title
+    type:  text
+  title_meta:
+    label: Title Meta
+    type:  text
+    icon:  info-circle
+  description:
+    label: Description Meta
+    type:  text
+    icon:  info-circle
+  noIndex:
+        label: No Index
+        type: checkbox
+        text: Do you want turn on "No Index" on this page?

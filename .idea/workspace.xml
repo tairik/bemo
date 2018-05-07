@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ec80cf1-fc3a-4896-895c-f3e7b6cd2083" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.htpasswd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/blueprints/contact.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/blueprints/home-bemo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/snippets/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/templates/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/templates/home-bemo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/error/error.txt" beforeDir="false" afterPath="$PROJECT_DIR$/content/error/error.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/home/home.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/site.txt" beforeDir="false" afterPath="$PROJECT_DIR$/content/site.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/ContentTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/ContentTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/FieldTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/FieldTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/FileTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/FileTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/FilesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/FilesTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/KirbyTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/KirbyTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/KirbytextTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/KirbytextTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/ModelsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/ModelsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/PageTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/PageTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/PagesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/PagesTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/RegistryEntryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/RegistryEntryTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/RegistryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/RegistryTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/RoleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/RoleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/RootsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/RootsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/SiteTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/SiteTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/UrlsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/UrlsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/etc/site/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/etc/site/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/etc/site/models/a.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/etc/site/models/a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/etc/site/plugins/a/a.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/etc/site/plugins/a/a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/etc/site/plugins/b.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/etc/site/plugins/b.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/etc/site/tags/a.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/etc/site/tags/a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/etc/site/tags/b.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/etc/site/tags/b.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/lib/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/lib/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/test/lib/testcase.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/test/lib/testcase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/lib/cache/driver.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/lib/cache/driver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/ATest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/ATest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/BitmaskTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/BitmaskTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/CTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/CTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/CollectionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/CollectionTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/DbTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/DbTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/DimensionsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/DimensionsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/DirTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/DirTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/EmbedTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/EmbedTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/ErrorReportingTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/ErrorReportingTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/FTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/FTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/HTMLTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/HTMLTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/HelpersTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/HelpersTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/LTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/LTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/MediaTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/MediaTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/ObjTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/ObjTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/PaginationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/PaginationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/PasswordTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/PasswordTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/RTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/RTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/ServerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/ServerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/SystemTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/SystemTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/TimerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/TimerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/UrlTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/UrlTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/VTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/VTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/VisitorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/VisitorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/XmlTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/XmlTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/etc/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/etc/content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/etc/system/executable.sh" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/etc/system/executable.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/lib/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/test/lib/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/vendors/abeautifulsite/SimpleImage.php" beforeDir="false" afterPath="$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/vendors/abeautifulsite/SimpleImage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/app/fields/date/assets/js/date.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/app/fields/date/assets/js/date.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/fonts/sourcesanspro-400-italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/fonts/sourcesanspro-400-italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/fonts/sourcesanspro-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/fonts/sourcesanspro-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/fonts/sourcesanspro-600.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/fonts/sourcesanspro-600.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/dist/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/dist/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/dist/form.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/dist/form.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/components/breadcrumb.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/components/breadcrumb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/components/delay.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/components/delay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/components/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/components/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/components/focus.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/components/focus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/components/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/components/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/components/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/components/message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/components/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/components/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/components/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/components/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/components/shortcuts.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/components/shortcuts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/components/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/components/sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/jquery/plugins/jquery.autosize.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/jquery/plugins/jquery.autosize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/jquery/plugins/jquery.editorHelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/jquery/plugins/jquery.editorHelpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/jquery/plugins/jquery.hotkeys.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/jquery/plugins/jquery.hotkeys.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/jquery/plugins/jquery.serializeobject.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/jquery/plugins/jquery.serializeobject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/jquery/plugins/jquery.slug.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/jquery/plugins/jquery.slug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/jquery/plugins/jquery.ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/jquery/plugins/jquery.ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/jquery/plugins/jquery.ui.touch.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/jquery/plugins/jquery.ui.touch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/plugins/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/plugins/moment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/plugins/nprogress.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/plugins/nprogress.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/js/src/plugins/pikaday.js" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/js/src/plugins/pikaday.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/scss/components/_dragula.scss" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/scss/components/_dragula.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/assets/scss/components/_nprogress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/panel/assets/scss/components/_nprogress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/tests/lib/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/panel/tests/lib/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/tests/lib/testcase.php" beforeDir="false" afterPath="$PROJECT_DIR$/panel/tests/lib/testcase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/blueprints/default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/site/blueprints/default.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/cache/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/plugins/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/snippets/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/snippets/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/snippets/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/site/snippets/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/templates/default.php" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="contact.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/blueprints/contact.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home-bemo.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/site/blueprints/home-bemo.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>login</find>
+      <find>panel.install</find>
+      <find>brand</find>
+      <find>sea</find>
+      <find>drp[</find>
+      <find>Site info</find>
+      <find>Do you want turn on &quot;No Inde</find>
+      <find>Page Meta</find>
+      <find>http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700</find>
+      <find>margin-bottom</find>
+      <find>goog</find>
+      <find>backgrou</find>
+      <find>desc</find>
+      <find>icon</find>
+      <find>favicon.ico</find>
+      <find>css</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/site/blueprints</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="&lt;df440f98-98db-4c26-9fe9-31603c92da37&gt;/var/www/html/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/panel/app/src/panel.php" />
+        <option value="$PROJECT_DIR$/panel/app/src/panel/installer.php" />
+        <option value="$PROJECT_DIR$/content/home/home/default.txt" />
+        <option value="$PROJECT_DIR$/content/home/home.txt" />
+        <option value="$PROJECT_DIR$/site/templates/contact-us.php" />
+        <option value="$PROJECT_DIR$/site/blueprints/conctact.yml" />
+        <option value="$PROJECT_DIR$/site/blueprints/home.yml" />
+        <option value="$PROJECT_DIR$/content/01-blog/blog.txt" />
+        <option value="$PROJECT_DIR$/site/templates/contact-us/contact-us.php" />
+        <option value="$PROJECT_DIR$/site/templates/article.video.php" />
+        <option value="$PROJECT_DIR$/site/templates/blog.php" />
+        <option value="$PROJECT_DIR$/site/blueprints/blog.yml" />
+        <option value="$PROJECT_DIR$/site/plugins/ckeditor/ckeditor.php" />
+        <option value="$PROJECT_DIR$/site/blueprints/site.yml" />
+        <option value="$PROJECT_DIR$/site/templates/default.php" />
+        <option value="$PROJECT_DIR$/site/blueprints/default.yml" />
+        <option value="$PROJECT_DIR$/site/snippets/footer.php" />
+        <option value="$PROJECT_DIR$/site/snippets/menu.php" />
+        <option value="$PROJECT_DIR$/site/templates/home-bemo.php" />
+        <option value="$PROJECT_DIR$/site/config/config.php" />
+        <option value="$PROJECT_DIR$/site/snippets/header.php" />
+        <option value="$PROJECT_DIR$/.htpasswd" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/site/templates/contact.php" />
+        <option value="$PROJECT_DIR$/assets/css/site.css" />
+        <option value="$PROJECT_DIR$/site/blueprints/contact.yml" />
+        <option value="$PROJECT_DIR$/site/blueprints/home-bemo.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="74" />
+    <option name="y" value="-768" />
+    <option name="width" value="1366" />
+    <option name="height" value="768" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BeMo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BeMo" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="BeMo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BeMo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="BeMo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BeMo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="BeMo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BeMo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="BeMo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BeMo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="blueprints" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="BeMo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BeMo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="BeMo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BeMo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="BeMo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BeMo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.php.tools.quality.phpcs.PhpCSConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/site" />
+      <recent name="$PROJECT_DIR$/site/plugins/ckeditor/field" />
+      <recent name="$PROJECT_DIR$/site/templates/contact-us" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/site/plugins/ckeditor/field" />
+      <recent name="$PROJECT_DIR$/site/templates" />
+      <recent name="$PROJECT_DIR$/site/blueprints" />
+      <recent name="$PROJECT_DIR$/site/snippets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ec80cf1-fc3a-4896-895c-f3e7b6cd2083" name="Default" comment="" />
+      <created>1525529353840</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525529353840</updated>
+      <workItem from="1525529359328" duration="23117000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23117000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="74" y="-768" width="1366" height="768" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" weight="0.32900432" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="right" id="Remote Host" weight="0.32930514" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" weight="0.32930514" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/kirby/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kirby/vendor/getkirby/toolkit/lib/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-637">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/home/home.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/home/home/default.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/02-typo/page.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-565" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/feed/feed.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/blueprints/home.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-621" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/blueprints/article.link.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/01-blog/blog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/03-contact/contact.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/templates/contact-us/contact-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/controllers/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/templates/article.video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/templates/article.text.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/controllers/blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/blueprints/blog.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/templates/blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" column="25" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/plugins/feed/template.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/plugins/field-wysiwyg/field/vendor/composer/ClassLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3555" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/plugins/field-wysiwyg/field/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="61" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/plugins/field-wysiwyg/field/vendor/composer/autoload_real.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/plugins/ckeditor/field/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/plugins/field-wysiwyg/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/plugins/field-wysiwyg/field-wysiwyg.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/plugins/ckeditor/field/ckeditor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="e#6#230#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/plugins/ckeditor/field/vendor/league/html-to-markdown/src/Converter/DivConverter.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/plugins/field-wysiwyg/field/wysiwyg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="94" column="46" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/ckeditor/ckeditor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="44" column="44" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/site.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/templates/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/search/search.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/templates/home-bemo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/snippets/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htpasswd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/snippets/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#noscript#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/blueprints/site.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/1-home-bemo/home-bemo.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/contact-us/contact.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/error/error.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/blueprints/default.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/templates/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="184" column="2" selection-start-line="184" selection-start-column="2" selection-end-line="184" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/snippets/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/plugins/feed/feed.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/blueprints/contact.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/blueprints/home-bemo.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
